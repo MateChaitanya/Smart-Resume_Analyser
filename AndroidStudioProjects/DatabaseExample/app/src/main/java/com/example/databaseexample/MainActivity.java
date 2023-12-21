@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
         ContactModel model = new ContactModel();
         model.id =1;
-
         dbHelper.updateContacts(model);
     }
 }
