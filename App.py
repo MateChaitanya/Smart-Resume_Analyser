@@ -83,7 +83,7 @@ def course_recommender(course_list):
     return rec_course
 
 
-connection = pymysql.connect(host='localhost', user='root', password='Chaitu@123')
+connection = pymysql.connect(host='sql6.freemysqlhosting.net', user='sql6679405', password='Rt57h4bsLs',db='sql6679405')
 cursor = connection.cursor()
 
 
@@ -119,9 +119,9 @@ def run():
     
 
     # Create the DB
-    db_sql = """CREATE DATABASE IF NOT EXISTS SRA;"""
-    cursor.execute(db_sql)
-    connection.select_db("sra")
+    # db_sql = """CREATE DATABASE IF NOT EXISTS SRA;"""
+    # cursor.execute(db_sql)
+    # connection.select_db("sra")
 
     # Create table
     DB_table_name = 'user_data'
