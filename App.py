@@ -5,12 +5,6 @@ nltk.download('stopwords')
 import spacy
 import os
 
-config_path = '/opt/render/project/src/.venv/lib/python3.8/site-packages/en_core_web_sm/en_core_web_sm-2.2.0/config.cfg'
-
-nlp = spacy.load('en_core_web_sm', config=config_path)
-import spacy
-
-nlp = spacy.load('en_core_web_sm')
 
 import pandas as pd
 import base64, random
