@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">ImageCompressor</string>
-    <string name="todo">TODO</string>
-    <string name="height">Height</string>
-    <string name="width">Width</string>
-    <string name="quality">Quality:</string>
-    <string name="pick_image">Pick Image</string>
-    <string name="compress">Compress</string>
-</resources>
